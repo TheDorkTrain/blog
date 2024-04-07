@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="stylesheet" href="./assets/css/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bryce McWhirter</title>
+    </head>
+
+    <body class="blogbody">
+        <header><h1> Bryce McWhirter</h1>
+                    <h2> Blog</h2>
+        </header>
+        <Section>
+            <ul>
+                <li> <label for="name">Username</label>  
+                    <input type="text" id="name" name="name" required minlength="4" maxlength="15" size="20" />
+                </li>
+                <li> 
+                    <label for="blogtitle">Blog Title</label>
+                    <input type="text" id="blogtitle" name="blogtitle" required minlength="2" size="20" />
+                <li>
+                    <label for="blogcont">Blog Content</label>
+                    <textarea type="text" id="myTextarea" name="blogcont" required minlength="20" rows="20" cols="180"></textarea>
+                </li>
+                <li>
+                    <input type="submit" id="submitBlog"/> <p id='fillout'></p>
+                    <label for="submit" id="fillout"></label>
+                </li>
+            </ul>
+
+</Section>
+
+        <script src="./assets/java/script.js"></script>
+    </body>
+    <footer>
+        <p>Blog created by TheDorkTrain <button><a href="https://thedorktrain.github.io/aboutme/"> See other projects and info here</a></button> </p>
+    </footer>
+</html>
