@@ -171,3 +171,20 @@ label {
     top:60px;
     padding-right: 20px;
   }
+
+  @media screen and (max-width: 1000px) {
+  textarea {
+    width:50%;
+    height: 100px;
+  }
+  Section ul li{
+    flex-basis: 100%;
+}
+h1 {
+  font-size:25px
+}
+
+header nav ul{
+  top:86px;
+
+} }

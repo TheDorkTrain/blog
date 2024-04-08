@@ -89,8 +89,6 @@ parsedBlogPosts.forEach(post => {
 
         const listName = document.createElement("p");
         listName.id = "Name";
-        //listName.style.borderRight = "5px dashed var(--main-dark)";
-        //listName.style.paddingRight = "10px";
         listName.textContent = `${post.title} by ${post.username}`;
         listName.style.flexBasis = "100%";
         listName.style.fontSize = "30px";
